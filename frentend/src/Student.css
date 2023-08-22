@@ -1,0 +1,127 @@
+/* .RegForm{
+ background: red;
+} */
+
+.RegForm{
+    padding: 0 15rem;
+}
+/* form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.inputContent{
+    padding: 1rem;
+    display: flex;
+}
+.inputContent label{
+    width: 30%;
+}
+
+.inputContent input{
+    width: 30%;
+    padding: 10px;
+} */
+
+.registrationDet{
+    background-color: rgb(146, 188, 214);
+}
+
+ h4, h3{
+    padding: 10px;
+    /* background: rgb(161, 18, 18); */
+    background: rgb(0, 18, 44);
+    color: white;
+}
+/* .registrationDet{
+    display: flex;
+    justify-content: space-between;
+} */
+.inputContent{
+    padding: 1rem;
+}
+
+label{
+    font-weight: 600;
+}
+.inputss{
+    padding: 10px;
+}
+.inputss {
+    padding: 10px;
+    padding-left: 96px;
+    border: 1px solid rgb(252, 248, 248);
+}
+.inputContent{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border-bottom: 1px solid rgb(219, 204, 204);
+}
+
+.inputContent label{
+    padding-right: 100px;
+}
+
+.regFlex{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* justify-content: space-around; */
+}
+.btnButton{
+    display: flex;
+    justify-content: right;
+    padding: 1rem;
+}
+.btnButton {
+    /* display: flex; */
+    /* justify-content: right; */
+    /* padding: 1rem; */
+    display: flex;
+    float: right;
+    padding: 8px 56px;
+    margin: 1rem;
+    color: white;
+    /* background: rgb(161, 18, 18); */
+    background: rgb(5, 55, 121);
+    border: none;
+}
+
+.Documents{
+    display: flex;
+    gap: 4rem;
+}
+
+
+
+.info {
+    width: 100px;
+    border: 1px solid;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background: #d7e7f3;
+    text-align: -webkit-auto;
+    margin-bottom: 1rem;
+}
+span{
+    color: red;
+    display: inline-block;
+}
+select.inputss {
+    width: 275px;
+}
+@media (max-width: 1200px){
+
+    .regFlex{
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+    }
+    .RegForm{
+        padding: 0 5rem;
+    }
+}
